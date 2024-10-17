@@ -8,7 +8,7 @@ pipeline {
         stage('Compile') { //prod
         agent any
             steps {
-                echo "Compile the code"
+                echo "Compile the code Address Book"
                 sh "mvn compile"
             }
         }
